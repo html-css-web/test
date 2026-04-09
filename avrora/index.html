@@ -5,27 +5,43 @@
 			Киоск Аврора / Главная страница
 		</title>
 		<link rel="icon" type="image/png" href="icon.png">
+		<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 	</head>
 	<body>
-		<div class="title">
-			<h1 class="title2">
-				Киоск 
-			</h1>
-			<h1 class="title2">
-				"Аврора"
-			</h1>
+		<div class="wrapper">
+			<div class="title">
+				<h1 class="title2">
+					Киоск 
+				</h1>
+				<h1 class="title2">
+					"Аврора"
+				</h1>
+			</div>
+			<img class="icon" src="ikon.png" alt="Описание изображения">
 		</div>
 		<style>
+			.wrapper {
+				display: flex;
+				align-items: center;   
+				gap: 16px;             
+			}
 			.title{
 				font-size: 40px;
 				color: white;
 				margin: 200px 0px 0px 0px;
+				flex: 1;
+				
 			}
 			.title2{
 				font-size: 80px;
 				color: white;
 				margin: 0px 0px 0px 60px;
-				font-family: Comfortaa;
+				font-family: Arial;
+			}
+			.icon{
+				margin: 100px 100px 0px 0px;
+				border: 1px solid white;
+				border-radius: 30px;
 			}
 			body{
 				margin: 0px;
