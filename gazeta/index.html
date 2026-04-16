@@ -16,67 +16,105 @@
 				Выпуск 1
 			</h2>
 		</div>
+		<div class="wrapper-title3_2">
 		<div class="wrapper-title3">
-			<h3 class="title3">
-				Переменка
-			</h3>
-			<p class="grade">
-				Оценки:
-			</p>
-			<div class="block">
-				<p class="grade2">
-					Понедельник
+			<div class="block-grade">
+				<h3 class="title3">
+					Переменка
+				</h3>
+				<p class="grade">
+					Оценки:
+				</p>
+				<div class="block">
+					<p class="grade2">
+						Понедельник
+					</p>
+					<p class="grade3">
+						Математика - 5
+					</p>
+					<p class="grade3">
+						Русский язык - 4
+					</p>
+					<p class="grade3">
+						Литературное чтение - 5
+					</p>
+				</div>
+				<div class="block2">
+					<p class="grade2">
+						Вторник
+					</p>
+					<p class="grade3">
+						Математика - 5
+					</p>
+					<p class="grade3">
+						Русский язык - 5
+					</p>
+					<p class="grade3">
+						Окружающий мир - 5
+					</p>
+				</div>
+				<div class="block3">
+					<p class="grade2">
+						Среда
+					</p>
+					<p class="grade3">
+						Математика - 5
+					</p>
+					<p class="grade3">
+						Русский язык - 5
+					</p>
+					<p class="grade3">
+						Литературное чтение - 5
+					</p>
+				</div>
+				<div class="block4">
+					<p class="grade2">
+						Четверг
+					</p>
+					<p class="grade3">
+						Литературное чтение - 5
+					</p>
+					<p class="grade3">
+						Русский язык - 5
+					</p>
+					<p class="grade3">
+						Окружающий мир - 5
+					</p>
+				</div>
+				<div class="block5">
+					<p class="grade2">
+						Пятница
+					</p>
+					<p class="grade3">
+						Финансовая грамотность - 5
+					</p>
+					<p class="grade3">
+						Математика - 5
+					</p>
+					<p class="grade3">
+						Русский язык - 4
+					</p>
+					<p class="grade3">
+						Литературное чтение - 5
+					</p>
+				</div>
+			</div>
+			
+			<div class="block-dpn">
+				<p class="grade">
+					Дополнительные новости
 				</p>
 				<p class="grade3">
-					Математика - 5
+					В среду была драка.
 				</p>
 				<p class="grade3">
-					Русский язык - 4
+					Лёша VS Саша П.
 				</p>
-				<p class="grade3">
-					Литературное чтение - 5
+				<p>
+					Победил Лёша.
 				</p>
 			</div>
-			<div class="block2">
-				<p class="grade2">
-					Вторник
-				</p>
-				<p class="grade3">
-					Математика - 5
-				</p>
-				<p class="grade3">
-					Русский язык - 5
-				</p>
-				<p class="grade3">
-					Окружающий мир - 5
-				</p>
-			</div>
-			<p class="grade2">
-				Среда
-			</p>
-			<p class="grade3">
-				Математика - 5
-			</p>
-			<p class="grade3">
-				Русский язык - 5
-			</p>
-			<p class="grade3">
-				Литературное чтение - 5
-			</p>
-			<div class="block3">
-				<p class="grade2">
-					Четверг
-				</p>
-				<p class="grade3">
-					Литературное чтение - 5
-				</p>
-				<p class="grade3">
-					Русский язык - 5
-				</p>
-				<p class="grade3">
-					Окружающий мир - 5
-				</p>
-			</div>
+		</div>
 		</div>
 		<style>
 			.title{
@@ -93,14 +131,18 @@
 				background-color: #ffb300;
 				margin: 0px;
 			}
+			.wrapper-title3_2{
+				display: inline-flex;
+				flex-direction: column;
+			}
 			.wrapper-title3{
 				color: white;
 				border: 1px solid white;
 				border-radius: 5px;
-				margin: 10px 10px 10px 10px;
+				margin: 10px 10px 20px 10px;
 				padding: 20px;
 				display: inline-flex;
-				flex-direction: column;
+				flex-direction: row;
 			}
 			.title3{
 				font-size: 30px;
@@ -116,6 +158,12 @@
 			.block3{
 				margin: 5px;
 			}
+			.block4{
+				margin: 5px;
+			}
+			.block5{
+				margin: 5px;
+			}
 			.grade{
 				margin: 0px;
 				font-size: 25px;
@@ -129,6 +177,10 @@
 				margin: 1px;
 				font-size: 20px;
 				text-indent: 20px;
+			}
+			.block-dpn{
+				display: inline-flex;
+				flex-direction: column;
 			}
 			body{
 				margin: 0px;
