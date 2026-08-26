@@ -31,7 +31,7 @@ function toggleLike() {
   }
 }
 let secretCode = "";
-const targetPhrase = "при";
+const targetPhrase = "кошка";
 
 document.addEventListener('keydown', function(event) {
   secretCode += event.key.toLowerCase();
